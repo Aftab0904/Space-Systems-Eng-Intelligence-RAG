@@ -13,7 +13,7 @@ I built this project to prove that **RAG (Retrieval-Augmented Generation)** can 
 
 <div align="center">
   <p><b>Watch the Full Technical Demo on YouTube:</b></p>
-  <a href="YOUR_YOUTUBE_LINK_HERE">
+  <a href="https://youtu.be/Ls7RXBgy8Gk">
     <img src="https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube" alt="Watch Demo on YouTube" />
   </a>
   <br><br>
