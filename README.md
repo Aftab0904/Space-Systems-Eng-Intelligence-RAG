@@ -12,8 +12,12 @@ I built this project to prove that **RAG (Retrieval-Augmented Generation)** can 
 ## 🎬 Project in Action
 
 <div align="center">
-  <p><i>The video file is currently being processed. To view the full demo, please drag the <code>assets/demo.mp4</code> file into the GitHub editor here.</i></p>
-  <img src="https://img.shields.io/badge/Video-Demo--Preview-blue?style=for-the-badge&logo=youtube" alt="Video Placeholder" />
+  <p><b>Watch the Full Technical Demo on YouTube:</b></p>
+  <a href="YOUR_YOUTUBE_LINK_HERE">
+    <img src="https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube" alt="Watch Demo on YouTube" />
+  </a>
+  <br><br>
+  <p><i>Note: You can also find the raw video file in <code>assets/demo.mp4</code>.</i></p>
 </div>
 
 ### 📸 Interface Showcase
@@ -54,15 +58,18 @@ graph TD
     E --> H[Groq Llama 3.3 70B Reasoning]
     H --> I[Technical Response + Citations]
 
-    style A fill:#ff9999,stroke:#333,stroke-width:2px
-    style B fill:#66b3ff,stroke:#333,stroke-width:2px
-    style C fill:#99ff99,stroke:#333,stroke-width:2px
-    style D fill:#ffcc99,stroke:#333,stroke-width:2px
-    style E fill:#c2c2f0,stroke:#333,stroke-width:4px
-    style F fill:#ffb3e6,stroke:#333,stroke-width:2px
-    style G fill:#f9f,stroke:#333,stroke-width:2px
-    style H fill:#c4e17f,stroke:#333,stroke-width:2px
-    style I fill:#76D7C4,stroke:#333,stroke-width:2px
+    classDef box color:#fff,stroke:#fff,stroke-width:2px;
+    class A,B,C,D,E,F,G,H,I box;
+
+    style A fill:#B03A2E
+    style B fill:#1F618D
+    style C fill:#1E8449
+    style D fill:#D68910
+    style E fill:#7D3C98
+    style F fill:#AF7AC5
+    style G fill:#2471A3
+    style H fill:#117864
+    style I fill:#283747
 ```
 
 1. **Ingestion:** The PDF is parsed using layout-aware tools.
