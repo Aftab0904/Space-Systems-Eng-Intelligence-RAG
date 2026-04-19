@@ -10,10 +10,7 @@ I built this project to prove that **RAG (Retrieval-Augmented Generation)** can 
 ---
 
 ## 🎬 Project in Action
-Check out the system handling complex queries in real-time.
-
-https://github.com/user-attachments/assets/5c38ec7c405ec4b44b94cc5a99bb96e735b38267a
-*(Note: Since GitHub READMEs don't support direct MP4 playback without a raw link, I've prepared the gallery below to showcase the interface)*
+> **Note:** To view the high-resolution demo video, you can upload the `assets/demo.mp4` file to YouTube or directly into a GitHub Issue/README editor to generate a valid streaming link.
 
 ### 📸 Interface Showcase
 <p align="center">
