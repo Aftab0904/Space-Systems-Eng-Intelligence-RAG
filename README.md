@@ -42,9 +42,28 @@ I chose a high-performance stack to ensure the agent is both accurate and lightn
 ## 📐 Architecture & Logic Flow
 How does it actually work? When you ask a question, the system doesn't just search for keywords. It looks at the **structure** of the manual.
 
-<p align="center">
-  <img src="assets/architecture_flow.png" width="90%" />
-</p>
+```mermaid
+graph TD
+    A[NASA Systems Engineering Handbook PDF] --> B[LlamaIndex PyMuPDF Parser]
+    B --> C[Hierarchical Node Parsing]
+    C --> D[Local BAAI Embeddings]
+    D --> E[(ChromaDB Vector Store)]
+    
+    F[User Natural Language Query] --> G{Acronym Resolution}
+    G --> E
+    E --> H[Groq Llama 3.3 70B Reasoning]
+    H --> I[Technical Response + Citations]
+
+    style A fill:#ff9999,stroke:#333,stroke-width:2px
+    style B fill:#66b3ff,stroke:#333,stroke-width:2px
+    style C fill:#99ff99,stroke:#333,stroke-width:2px
+    style D fill:#ffcc99,stroke:#333,stroke-width:2px
+    style E fill:#c2c2f0,stroke:#333,stroke-width:4px
+    style F fill:#ffb3e6,stroke:#333,stroke-width:2px
+    style G fill:#f9f,stroke:#333,stroke-width:2px
+    style H fill:#c4e17f,stroke:#333,stroke-width:2px
+    style I fill:#76D7C4,stroke:#333,stroke-width:2px
+```
 
 1. **Ingestion:** The PDF is parsed using layout-aware tools.
 2. **Hierarchical Parsing:** Instead of arbitrary chunks, we maintain the relationship between sections (e.g., Section 6.2 knows it belongs to Chapter 6).
