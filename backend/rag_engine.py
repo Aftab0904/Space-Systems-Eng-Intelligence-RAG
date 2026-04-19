@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 from llama_index.core import (
     VectorStoreIndex, 
     StorageContext, 
-    Settings,
-    Document
+    Settings
 )
 from llama_index.llms.groq import Groq
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
