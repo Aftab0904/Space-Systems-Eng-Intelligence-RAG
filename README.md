@@ -9,10 +9,27 @@ I built this project to prove that **RAG (Retrieval-Augmented Generation)** can 
 
 ---
 
+## 🎬 Project in Action
+Check out the system handling complex queries in real-time.
+
+https://github.com/user-attachments/assets/5c38ec7c405ec4b44b94cc5a99bb96e735b38267a
+*(Note: Since GitHub READMEs don't support direct MP4 playback without a raw link, I've prepared the gallery below to showcase the interface)*
+
+### 📸 Interface Showcase
+<p align="center">
+  <img src="assets/Screenshot (202).png" width="30%" />
+  <img src="assets/Screenshot (203).png" width="30%" />
+  <img src="assets/Screenshot (204).png" width="30%" />
+</p>
+
+---
+
 ## 🛠️ The Technology Stack
 I chose a high-performance stack to ensure the agent is both accurate and lightning-fast.
 
-![Tech Stack](assets/tech_stack.png)
+<p align="center">
+  <img src="assets/tech_stack.png" width="80%" />
+</p>
 
 - **LlamaIndex:** The backbone of our data orchestration.
 - **Groq (Llama 3.3 70B):** Used as the primary reasoning engine for near-instant responses.
@@ -24,7 +41,9 @@ I chose a high-performance stack to ensure the agent is both accurate and lightn
 ## 📐 Architecture & Logic Flow
 How does it actually work? When you ask a question, the system doesn't just search for keywords. It looks at the **structure** of the manual.
 
-![Architecture Flow](assets/architecture_flow.png)
+<p align="center">
+  <img src="assets/architecture_flow.png" width="90%" />
+</p>
 
 1. **Ingestion:** The PDF is parsed using layout-aware tools.
 2. **Hierarchical Parsing:** Instead of arbitrary chunks, we maintain the relationship between sections (e.g., Section 6.2 knows it belongs to Chapter 6).

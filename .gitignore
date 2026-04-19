@@ -1,4 +1,7 @@
-# Python
+# Media
+*.mp4
+*.mov
+*.avi
 __pycache__/
 *.py[cod]
 *$py.class
