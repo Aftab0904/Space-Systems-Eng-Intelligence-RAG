@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+backend/chroma_db/
+backend/data/
+chroma_db/
+data/
+
+# IDEs
+.vscode/
+.idea/
