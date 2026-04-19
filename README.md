@@ -10,7 +10,11 @@ I built this project to prove that **RAG (Retrieval-Augmented Generation)** can 
 ---
 
 ## 🎬 Project in Action
-> **Note:** To view the high-resolution demo video, you can upload the `assets/demo.mp4` file to YouTube or directly into a GitHub Issue/README editor to generate a valid streaming link.
+
+<div align="center">
+  <p><i>The video file is currently being processed. To view the full demo, please drag the <code>assets/demo.mp4</code> file into the GitHub editor here.</i></p>
+  <img src="https://img.shields.io/badge/Video-Demo--Preview-blue?style=for-the-badge&logo=youtube" alt="Video Placeholder" />
+</div>
 
 ### 📸 Interface Showcase
 <p align="center">
